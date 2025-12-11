@@ -23,3 +23,11 @@
 - [Analyst, Case Management](https://remote.thetodayupdate.com/job/analyst-case-management-2)
 - [Case Manager RN Field South Cook County, IL & Surrounding](https://remote.thetodayupdate.com/job/case-manager-rn-field-south-cook-county-il-and-surrounding)
 - [Clinical Case Manager, Behavioral Health (Chicago)](https://remote.thetodayupdate.com/job/clinical-case-manager-behavioral-health-field-southwest-west-central-chicago)
+
+---
+
+## MDX Content Pipeline
+
+- Blog posts live in `content/posts` as MDX files with frontmatter (`title`, `description`, `date`, `category`, `tags`).
+- Use `lib/posts.ts` to load metadata via `getAllPosts()` or fetch compiled content with `getPostBySlug(slug)`.
+- Categories and tags are normalized into slugs so future filters can rely on consistent taxonomy values.
