@@ -1,0 +1,19 @@
+{
+  "name": "ai-content-pipeline",
+  "version": "1.0.0",
+  "description": "MDX content pipeline and utilities for the AI resume builder knowledge base.",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"No tests configured\""
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^3.1.1",
+    "@mdx-js/react": "^3.1.1",
+    "gray-matter": "^4.0.3",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.0"
+  }
+}
